@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spotify_integration
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210315\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-30 03:05+0000\n"
+"PO-Revision-Date: 2021-03-29 22:07-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__create_uid
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__create_uid
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__create_date
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__create_date
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__create_date
+msgid "Created on"
+msgstr "Creado en "
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__display_name
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__display_name
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__id
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__id
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__id
+msgid "ID"
+msgstr "ID"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify____last_update
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line____last_update
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__write_uid
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__write_uid
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__write_date
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__write_date
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__line_ids
+msgid "Line"
+msgstr "Linea"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__name
+#: model_terms:ir.ui.view,arch_db:spotify_integration.spotify_musical_genres_view_form
+msgid "Musical Genre"
+msgstr "Género Musical"
+
+#. module: spotify_integration
+#: model:ir.actions.act_window,name:spotify_integration.spotify_musical_genres_action
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__musical_genre_ids
+msgid "Musical Genres"
+msgstr "Géneros Musicales"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify__name
+#: model_terms:ir.ui.view,arch_db:spotify_integration.spotify_view_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: spotify_integration
+#: model_terms:ir.ui.view,arch_db:spotify_integration.spotify_view_form
+msgid "Recommended Songs"
+msgstr "Canciones Recomendadas"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__song_name
+msgid "Song Name"
+msgstr "Nombre de la Canción"
+
+#. module: spotify_integration
+#: model:ir.actions.act_window,name:spotify_integration.spotify_action
+#: model:ir.model,name:spotify_integration.model_spotify
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__spotify_id
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_musical_genres__spotify_id
+#: model:ir.ui.menu,name:spotify_integration.spotify_category
+#: model:ir.ui.menu,name:spotify_integration.spotify_root
+msgid "Spotify"
+msgstr ""
+
+#. module: spotify_integration
+#: model:ir.model,name:spotify_integration.model_spotify_line
+msgid "Spotify Music Lines"
+msgstr ""
+
+#. module: spotify_integration
+#: model:ir.model,name:spotify_integration.model_spotify_musical_genres
+#: model:ir.ui.menu,name:spotify_integration.spotify_musical_genres_category
+msgid "Spotify Musical Genres"
+msgstr "Spotify Géneros Musicales"
+
+#. module: spotify_integration
+#: model:ir.model.fields,field_description:spotify_integration.field_spotify_line__song_url
+msgid "Url"
+msgstr ""
+
+#. module: spotify_integration
+#: model_terms:ir.ui.view,arch_db:spotify_integration.spotify_musical_genres_view_form
+msgid "spotify_category_form"
+msgstr ""
+
+#. module: spotify_integration
+#: model_terms:ir.ui.view,arch_db:spotify_integration.spotify_musical_genre_view_tree
+msgid "spotify_category_tree"
+msgstr ""

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- View Form Model Spotify -->
+        <record id="spotify_view_form" model="ir.ui.view">
+            <field name="name">spotify_view_form</field>
+            <field name="model">spotify</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+
+                        <div>
+                            <h1>
+                                <field name="name" placeholder="Name"/>
+                            </h1>
+                        </div>
+
+                        <group>
+                            <group>
+                                <field name="musical_genre_ids" required="1" widget="many2many_tags"
+                                       options="{'no_create':True,'no_edit':True}"/>
+                            </group>
+                        </group>
+
+                        <notebook>
+
+                            <page string="Recommended Songs">
+                                <field name="line_ids" readonly="1" force_save="1">
+                                    <tree>
+                                        <field name="song_name"/>
+                                        <field name="song_url" widget="link_button"/>
+                                    </tree>
+                                </field>
+                            </page>
+
+                        </notebook>
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- View Tree Model Spotify -->
+        <record id="spotify_view_tree" model="ir.ui.view">
+            <field name="name">spotify_view_tree</field>
+            <field name="model">spotify</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="musical_genre_ids" widget="many2many_tags"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- View Form Model Spotify Musical Genres -->
+        <record id="spotify_musical_genres_view_form" model="ir.ui.view">
+            <field name="name">spotify_musical_genres_view_form</field>
+            <field name="model">spotify.musical.genres</field>
+            <field name="arch" type="xml">
+                <form string="spotify_category_form">
+                    <sheet>
+                        <group string="Musical Genre">
+                            <group>
+                                <field name="name" required="1"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- View Tree Model Spotify Musical Genres -->
+        <record id="spotify_musical_genre_view_tree" model="ir.ui.view">
+            <field name="name">spotify_musical_genres_view_tree</field>
+            <field name="model">spotify.musical.genres</field>
+            <field name="arch" type="xml">
+                <tree string="spotify_category_tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- Action view Spotify -->
+        <record id="spotify_action" model="ir.actions.act_window">
+            <field name="name">Spotify</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">spotify</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Action view Spotify Musical Genres -->
+        <record id="spotify_musical_genres_action" model="ir.actions.act_window">
+            <field name="name">Musical Genres</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">spotify.musical.genres</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

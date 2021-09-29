@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="genre_1" model="spotify.musical.genres">
+            <field name="name">Pop</field>
+        </record>
+
+        <record id="genre_2" model="spotify.musical.genres">
+            <field name="name">Rock</field>
+        </record>
+
+        <record id="genre_3" model="spotify.musical.genres">
+            <field name="name">Reggaeton</field>
+        </record>
+
+        <record id="genre_4" model="spotify.musical.genres">
+            <field name="name">Country</field>
+        </record>
+
+        <record id="genre_5" model="spotify.musical.genres">
+            <field name="name">Classical</field>
+        </record>
+
+         <record id="genre_6" model="spotify.musical.genres">
+            <field name="name">Electronic</field>
+        </record>
+
+        <record id="genre_7" model="spotify.musical.genres">
+            <field name="name">Bluegrass</field>
+        </record>
+
+        <record id="genre_8" model="spotify.musical.genres">
+            <field name="name">Electro</field>
+        </record>
+
+        <record id="genre_9" model="spotify.musical.genres">
+            <field name="name">Dance</field>
+        </record>
+
+
+
+    </data>
+</odoo>

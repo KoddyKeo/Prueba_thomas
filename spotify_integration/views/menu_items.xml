@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Spotify Root -->
+        <menuitem id="spotify_root"
+                  name="Spotify"
+                  groups="base.group_user"
+                  web_icon="spotify_integration,static/description/icon.png"
+                  sequence="75"/>
+
+        <!-- Spotify Category -->
+        <menuitem id="spotify_category" name="Spotify" parent="spotify_root" action="spotify_action" sequence="1"/>
+        <menuitem id="spotify_musical_genres_category" name="Spotify Musical Genres" parent="spotify_root"
+                  action="spotify_musical_genres_action" sequence="2"/>
+
+    </data>
+</odoo>
